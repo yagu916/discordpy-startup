@@ -23,6 +23,6 @@ async def ping(ctx):
     
 @bot.command() 
 async def neko(ctx):
-    await ctx.send('ヨシ！')
+    await ctx.send('http://imgcc.naver.jp/kaze/mission/USER/20180112/72/7442902/0/250x248xf3828f97025dd9c3b94499e8.jpg')
 
 bot.run(token)
