@@ -20,7 +20,8 @@ async def on_message(message):
 @bot.command()
 async def ping(ctx):
     await ctx.send('pong')
-            # 「/neko」と発言したら「にゃーん」が返る処理
+    
+@bot.command() 
 async def neko(ctx):
     await ctx.send('ヨシ！')
 
